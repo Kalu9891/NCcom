@@ -237,10 +237,6 @@ namespace NCcom
         #region constructors
         public Controller()
         {
-            Application.ApplicationExit += new EventHandler((s, ea) =>
-            {
-                Task.Factory.StartNew(() => Disconnect());
-            });
         }
         #endregion
 
