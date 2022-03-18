@@ -11,5 +11,8 @@ NCcom is a C# library that manage the creation of "CNC Panel-like" graphic user 
 ---
 
 A sample GUI built with NCcom that communicates with a GRBL board.
+<br><br>
+![Panel GRBL](Media/panel.png)
+<br><br>
 
 ---
